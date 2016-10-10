@@ -27,6 +27,7 @@ sassc package.
 
 %package devel
 Summary:	Development files for %{name}
+Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
