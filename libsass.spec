@@ -9,6 +9,7 @@ Source0:	https://github.com/sass/libsass/archive/%{version}/%{name}-%{version}.t
 URL:		http://sass-lang.com/libsass
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	libstdc++-devel
 BuildRequires:	libtool
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
