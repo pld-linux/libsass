@@ -1,11 +1,11 @@
 Summary:	C/C++ port of the Sass CSS precompiler
 Name:		libsass
-Version:	3.3.6
+Version:	3.5.2
 Release:	1
 License:	MIT
 Group:		Libraries
 Source0:	https://github.com/sass/libsass/archive/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	6bb2a93efb9802758ff7640ab69ce498
+# Source0-md5:	0d0159517a138e201225461a73884e2a
 URL:		http://sass-lang.com/libsass
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -65,7 +65,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Readme.md SECURITY.md LICENSE
 %attr(755,root,root) %{_libdir}/libsass.so.*.*.*
-%ghost %{_libdir}/libsass.so.0
+%ghost %{_libdir}/libsass.so.1
 
 %files devel
 %defattr(644,root,root,755)
