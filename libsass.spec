@@ -5,13 +5,13 @@
 Summary:	C/C++ port of the Sass CSS precompiler
 Summary(pl.UTF-8):	Port C/C++ prekompilatora CSS Sass
 Name:		libsass
-Version:	3.6.5
+Version:	3.6.6
 Release:	1
 License:	MIT
 Group:		Libraries
 #Source0Download: https://github.com/sass/libsass/releases
 Source0:	https://github.com/sass/libsass/archive/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	c49765b9b3824dcd4a7423225ca28bad
+# Source0-md5:	afda97284d75a030cabadf5b9f998a3b
 URL:		https://sass-lang.com/libsass
 BuildRequires:	autoconf >= 2.61
 BuildRequires:	automake
